@@ -8,3 +8,4 @@
 * System.Collections.Generic; Stack<int>, Push, Pop, Peek, Count 
 * To avoid null check for linked list, we can use dummy. Dummy will have any value. Whenever we find new element, we will add it to dummy.next. When we need to return the ans, use dummy.next. https://leetcode.com/problems/merge-two-sorted-lists/submissions/
 * string.Insert(index, anotherString) => e.g. "abcd".Insert(2, "XX") "abXXcd"
+* HashMap<string> instead of List<string> for duplicate removal scenario. To convert to HashMap<string> to List<string> use new List<string>(h) where h is new HashMap<string>
