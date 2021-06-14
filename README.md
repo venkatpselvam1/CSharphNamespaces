@@ -18,3 +18,7 @@
  * 2. Shell (variation of insertion)              => O(n (log n)^2)                     => O(1)
  * 3. Merge and quick sort (divide and conquer)   => O(n log n)                         => O(n) , O(log n)
  * 4. Redix, couning, Bucket sort                 => K redi(x) nk, countingbucket n+k   => redix O(n+k), Bucket O(n), counting O(k)
+
+  
+ # Useful links
+  * https://www.programiz.com/dsa/quick-sort
