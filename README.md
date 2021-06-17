@@ -1,5 +1,6 @@
 # CSharphNamespaces
-* Array.Sort()    // using System;
+* Array.Sort(arr)    // using System;
+* Array.Sort(arr, new Comparer());
 * dict.ContainsKey()//using System.Collections.Generic;
 * when you want to know isFirstBool, try to set the first value instead of this bool. e.g. max of array, set the max value as arr[0] and start the loop.
 * using System.Linq;
@@ -22,3 +23,10 @@
   
  # Useful links
   * https://www.programiz.com/dsa/quick-sort
+
+ # Comparer
+  public class Comparer : IComparer<string, string>{
+    public int Compare(string a, string b){
+      return a.Length - b.Length;
+    }
+  }
