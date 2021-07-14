@@ -1,6 +1,7 @@
 # CSharphNamespaces
 * Array.Sort(arr)    // using System;
 * Array.Sort(arr, new Comparer());
+* String.Concat(str.OrderBy(c => c)) => to order the char in the string
 * dict.ContainsKey()//using System.Collections.Generic;
 * when you want to know isFirstBool, try to set the first value instead of this bool. e.g. max of array, set the max value as arr[0] and start the loop.
 * using System.Linq;
