@@ -7,6 +7,7 @@
 * using System.Linq;
 * IList<IList<int>> ans = new List<IList<int>>();
 * To copy a list in C# => list.ToList();
+* To define and use multidimersionl array. var arr = new int[,]{ {1,2,3}, {4,5,6}}; (or) empty array var arr = new int[2,3];
 * to convert a no to binary string in C# => Convert.ToString(45, 2);
 * To remove the last of n index from the linked list, use two pointer method. Pointer 1: current(starts from head to tail), Pointer 2: current - n-th node https://leetcode.com/problems/3sum/
 * System.Collections.Generic; Stack<int>, Push, Pop, Peek, Count 
