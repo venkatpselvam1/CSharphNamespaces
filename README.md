@@ -14,6 +14,7 @@
 * To avoid null check for linked list, we can use dummy. Dummy will have any value. Whenever we find new element, we will add it to dummy.next. When we need to return the ans, use dummy.next. https://leetcode.com/problems/merge-two-sorted-lists/submissions/
 * string.Insert(index, anotherString) => e.g. "abcd".Insert(2, "XX") "abXXcd"
 * HashMap<string> instead of List<string> for duplicate removal scenario. To convert to HashMap<string> to List<string> use new List<string>(h) where h is new HashMap<string>
+* var mod = 1e9 + 7; to return the ans in modulo 10 power 9 + 7. Note: this no is the highest prime on in the int32 range. https://www.geeksforgeeks.org/modulo-1097-1000000007/
 
   
  # Big O Cheat sheet
