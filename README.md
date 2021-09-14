@@ -15,7 +15,8 @@
 * string.Insert(index, anotherString) => e.g. "abcd".Insert(2, "XX") "abXXcd"
 * HashMap<string> instead of List<string> for duplicate removal scenario. To convert to HashMap<string> to List<string> use new List<string>(h) where h is new HashMap<string>
 * var mod = 1e9 + 7; to return the ans in modulo 10 power 9 + 7. Note: this no is the highest prime on in the int32 range. https://www.geeksforgeeks.org/modulo-1097-1000000007/
-
+* For O(Log n) Search (Search a no in sorted array,) => To find mid use mid = start +(end - start)/2; So that, it will avoid infinite loop.
+  After that you can go with (start, mid-1) or (mid+1, end)
   
  # Big O Cheat sheet
  * https://www.bigocheatsheet.com/
