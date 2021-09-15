@@ -1,5 +1,6 @@
 # CSharphNamespaces
 * Array.Sort(arr)    // using System;
+* var reversedArr = Array.Reverse(arr);
 * Array.Sort(arr, new Comparer());
 * String.Concat(str.OrderBy(c => c)) => to order the char in the string
 * dict.ContainsKey()//using System.Collections.Generic;
