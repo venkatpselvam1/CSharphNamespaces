@@ -39,3 +39,9 @@
       return a.Length - b.Length;
     }
   }
+  
+ # Shortes path or minimum dist
+  lets say we have m X n matrix, to get the shortes path from the given point we need to add the given point in the queue and start the depth first search
+  suppose, we don't have any defined start point but we are given list of start points.
+  e.g. find the dist from the sea in the island cell
+  we can add all the water into the queue first and start the dfs
