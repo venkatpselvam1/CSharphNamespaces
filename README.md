@@ -1,6 +1,7 @@
 # CSharphNamespaces
 * Array.Sort(arr)    // using System;
 * Array.Reverse(arr);
+* To get ditinct elements in array arr = arr.Distinct().ToArray()
 * arr.Max(), arr.Sum(), arr.Min()
 * Int32.MaxValue, Int32.MinValue
 * Array.Sort(arr, new Comparer());
