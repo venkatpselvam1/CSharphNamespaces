@@ -46,3 +46,12 @@
   suppose, we don't have any defined start point but we are given list of start points.
   e.g. find the dist from the sea in the island cell
   we can add all the water into the queue first and start the dfs
+  
+ # Tree Traversal
+  DFS
+    1. Inorder   - Left, Root, Right (sorted array in binary search tree)
+    2. Preorder - Root, Left, Right
+    3. Postorder - Left, Right, Root
+      Pre and Post order start or end with root. Inorder starts with left.
+  BFS
+    finish all the elements in one level before go to next level
