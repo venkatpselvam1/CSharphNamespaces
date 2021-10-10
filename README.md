@@ -35,7 +35,7 @@
   * https://www.programiz.com/dsa/quick-sort
 
  # Comparer
-  public class Comparer : IComparer<string, string>{
+  public class Comparer : IComparer<string>{
     public int Compare(string a, string b){
       return a.Length - b.Length;
     }
