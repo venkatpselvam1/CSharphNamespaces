@@ -40,7 +40,18 @@
       return a.Length - b.Length;
     }
   }
-  
+ 
+ # Sorted List (alternative to priority queue)
+  * var sortedList = new SortedList<int, int>();//it is kind of dictionary in C#
+  * var sortedList = new SortedList<int,int>(new Comparer());
+  * public class Comparer:IComparer<int>
+  {
+    public int Compare(int a, int b)
+    {
+      return a > b ? 1: -1;
+    }
+  }
+ 
  # Shortes path or minimum dist
   lets say we have m X n matrix, to get the shortes path from the given point we need to add the given point in the queue and start the depth first search
   suppose, we don't have any defined start point but we are given list of start points.
