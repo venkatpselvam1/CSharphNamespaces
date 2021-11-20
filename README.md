@@ -41,6 +41,11 @@
     }
   }
  
+ # Sort arr[2] by endtime or sort an object by one of the property
+  var arr = new Node[5];
+  Array.Sort(arr, (a, b) => a.Age.CompareTo(b.Age) );
+  var arr2 = new int[7][];
+  Array.Sort(arr, (a,b) => a[1].ComparedTo(b[1]) );
  # Sorted List (alternative to priority queue)
   * var sortedList = new SortedList<int, int>();//it is kind of dictionary in C#
   * var sortedList = new SortedList<int,int>(new Comparer());
