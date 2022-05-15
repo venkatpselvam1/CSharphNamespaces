@@ -71,3 +71,11 @@
       Pre and Post order start or end with root. Inorder starts with left.
   BFS
     finish all the elements in one level before go to next level
+
+ # Tree Map in JAVA
+  TreeMap is Kind of dictionary data structure, but the keys are stored in sorted order. So, if you add any new key, that key will placed in sorted order. Also we have method like higherEntry(), lowerEntry() to fetch the before and after nodes for the given value.
+  https://leetcode.com/problems/count-integers-in-intervals/submissions/ This problem is better solved with TreeMap.
+  
+ # LRU cache -> Least Recently Used
+    the cache will have the capacity, once the capacity is reached we remove the least used key from the list. For this, we will maintain a double linked list and rmeove and keep the nodes in sorted(orderedw way).
+  When any key is accessed, we move the key to front. so Automatically, remaining key will be moved away to tail making it easier to remove.
