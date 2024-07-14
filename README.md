@@ -72,6 +72,24 @@
   BFS
     finish all the elements in one level before go to next level
 
+ # JAVA
+ # Comparator in sort JAVA
+ ```
+  public class ArrComparator implements Comparator<int[]>{
+      public int compare(int[] a, int[] b){
+          return a[1] - b[1];
+      }
+  }
+  // Arrays.sort(arr1, new ArrComparator());
+ ```
+ # Stack in JAVA
+  ```
+  var st = new Stack<Character>();
+  st.push('A');st.push('B');st.push('C');
+  var last = st.pop();
+  st.empty();
+  st.size();
+  ```
  # Tree Map in JAVA
   TreeMap is Kind of dictionary data structure, but the keys are stored in sorted order. So, if you add any new key, that key will placed in sorted order. Also we have method like higherEntry(), lowerEntry() to fetch the before and after nodes for the given value.
   https://leetcode.com/problems/count-integers-in-intervals/submissions/ This problem is better solved with TreeMap.
