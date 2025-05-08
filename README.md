@@ -90,6 +90,24 @@
   st.empty();
   st.size();
   ```
+ # Priority Queue in JAVA
+ ```
+ var pq = new PriorityQueue<Integer>();
+ pq.add(5);
+ var last = pq.remove();
+ if(pq.isEmpty()) System.out.println("Priority Queue is empty");
+
+ // Priority Queue with custom comparator
+ var pq = new PriorityQueue<int[]>(new ArrComparator());
+ pq.add(new int[]{0,0,1};
+ var curr = pq.remove();
+
+ public class ArrComparator implements Comparator<int[]>{
+ public int compare(int[] a, int [] b){
+ return a[2] - b[2];
+ }
+ }
+ ```
  # Tree Map in JAVA
   TreeMap is Kind of dictionary data structure, but the keys are stored in sorted order. So, if you add any new key, that key will placed in sorted order. Also we have method like higherEntry(), lowerEntry() to fetch the before and after nodes for the given value.
   https://leetcode.com/problems/count-integers-in-intervals/submissions/ This problem is better solved with TreeMap.
