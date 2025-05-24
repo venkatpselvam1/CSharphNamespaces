@@ -34,6 +34,29 @@ private int[] countChars(String str){
 
 
 ## Comparator in sort JAVA
+```
+        var arr1 = new int[]{1,2,3,4,11,12,22,34,1,2,3,4};
+        Integer[] boxed = Arrays.stream(arr1).boxed().toArray(Integer[]::new);
+        Arrays.sort(boxed, (a, b) -> b - a);
+        System.out.println(Arrays.toString(boxed));
+```
+
+```
+       var arr = new String[]{"abc", "abcd", "abfdfd"};
+        Arrays.sort(arr, (a,b) -> {
+            return b.length() - a.length();
+        });
+        System.out.println(Arrays.toString(arr));
+```
+
+```
+        var arr = new int[][] { {1, 0}, {0,1}, {1,99}, {100, 1}, {1, 1001} };
+        Arrays.sort(arr, (a, b) -> {
+            return b[1] - a[1];
+        } );
+        for(var row: arr) System.out.println(Arrays.toString(row));
+```
+
  ```
   public class ArrComparator implements Comparator<int[]>{
       public int compare(int[] a, int[] b){
@@ -51,6 +74,16 @@ private int[] countChars(String str){
   st.size();
   ```
  ## Priority Queue in JAVA
+
+```
+        var arr = new int[][] { {1, 0}, {0,1}, {1,99}, {100, 1}, {1, 1001} };
+        var pq = new PriorityQueue<int[]>((a, b) -> {
+            return b[1] - a[1];
+        });
+        for(var item: arr) pq.add(item);
+        while(!pq.isEmpty()) System.out.println(Arrays.toString(pq.remove()));
+
+```
  ```
  var pq = new PriorityQueue<Integer>();
  pq.add(5);
