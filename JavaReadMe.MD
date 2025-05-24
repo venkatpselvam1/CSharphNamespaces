@@ -22,6 +22,21 @@ String strNum = "12345";
 int intNum = Integer.parseInt(strNum);//This method throws NumberFormatException if strNum is not a valid number
 ```
 
+Hash set to Integer array
+```
+var ans = new HashSet<Integer>();
+ans.add(1);ans.add(2);ans.add(11);ans.add(12);
+ans.stream().mapToInt(Number::intValue).toArray();
+```
+
+HashMap Iterate Keys
+
+```
+var map = new HashMap<Integer, String>();
+map.put(1, "test");map.put(2, "tes1t");map.put(3, "test4");map.put(3, "rest");
+for(var k: map.keySet()) System.out.println(k+" -> " + map.get(k));
+```
+
 --Count character in string
 
 ```
