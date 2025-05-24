@@ -2,24 +2,35 @@
 ## Minor things
 
 --How to quicly print an array
+
+```
 var arr = new int[]{1, 23, 1, -1, 9};
 System.out.println(Arrays.toString(arr));
+```
 
 --How to check a character exists in a string
+
+```
 var str = "venkatesan";
 if(str.indexOf('z') != -1) System.out.println("char z not present in string " + str);
+```
 
 --How to convert a string to integer
+
+```
 String strNum = "12345";
 int intNum = Integer.parseInt(strNum);//This method throws NumberFormatException if strNum is not a valid number
+```
 
 --Count character in string
+
+```
 private int[] countChars(String str){
     var ans = new int[26];
     for(var item: str.toCharArray()) ans[item-'a']++;
     return ans;
 }
-
+```
 
 
 ## Comparator in sort JAVA
